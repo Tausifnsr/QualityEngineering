@@ -14,7 +14,7 @@ function Contact() {
           <h1 className='text-lg font-semibold mb-10 ml-7'>Quality Engineering and Contracting</h1>
           <h1 className='text-lg font-semibold flex'>
             <FaLocationDot className='mr-4 mt-4'/> 
-            Isapur Phulwari Sharif Rd, Phulwari Sharif, Patna, Bihar 801505 
+            Hind Traders, Isopur, Rai Chowk, Near Puja Ply Factory, Phulwari Sharif, Patna, Bihar 801505 
           </h1>
           <h1 className='text-lg font-semibold flex mt-6'>
             <IoMdCall className='mr-2 mt-1'/> 
