@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Custom-1";
+    src: url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+  }
+
+
+
+
+  .tagline{
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 2px;
+  }
+
+  .aboutText{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    word-spacing: 5px;
+    font-weight: 500;
+  }
+
+  .joinUs{
+    background-image: url('./assets/joinbg.jpg');
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  }
+
+  @keyframes vibrate {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+  }
+  
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #128C7E;
+  }
+  
+  .vibrate {
+    animation: vibrate 0.3s linear infinite;
+  }
+  
+  .heroImg{
+    clip-path: polygon(31% 0, 100% 0%, 100% 100%, 0% 100%);
+  }
