@@ -5,7 +5,7 @@ import HeroImg from '../assets/heroimg.png'
 function Hero() {
   return (
     <div
-      className="lg:py-0 w-[90%] h-[50%] lg:h-auto mx-auto rounded-3xl shadow-xl my-10 overflow-hidden font-Poppins"
+      className="lg:py-0 w-[90%] h-[50vh] lg:h-auto mx-auto rounded-3xl shadow-xl my-10 overflow-hidden font-Poppins"
       id="home"
       data-aos="fade-up"
     >
