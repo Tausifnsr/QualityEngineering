@@ -21,7 +21,7 @@ function Hero() {
         </video>
         <div className="absolute w-full h-full top-0 right-0 ">
           <div className="flex flex-col lg:flex-row relative">
-            <div className="heroImg bg-white justify-center items-center absolute right-0 flex h-[60vh] w-1/2">
+            <div className="heroImg bg-white justify-center items-center absolute right-0 flex h-[60vh] lg:h-[80vh] w-1/2">
               <img className="lg:w-[400px] lg:h-[400px] lg:ml-28 pl-10" src={HeroImg} alt="" />
             </div>
           </div>
